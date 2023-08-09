@@ -12,10 +12,11 @@ def main() -> None:
   while(True):
     battery = ps.sensors_battery()
     plugged = battery.power_plugged
-    if(plugged == False):
+    if(plugged):
+      set_freq(MAX_FREQ)
+    else:
       set_freq(MIN_FREQ)
-    set_freq(MAX_FREQ)
-    sleep(0.15)
+    sleep(0.1)
 
 try:
   main()
