@@ -17,6 +17,11 @@ def main() -> None:
     set_freq(MAX_FREQ)
     sleep(0.15)
 
+try:
+  main()
+except Exception:
+  main()
+
 
 
 
