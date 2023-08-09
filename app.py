@@ -15,7 +15,7 @@ def main() -> None:
     if(plugged == False):
       set_freq(MIN_FREQ)
     set_freq(MAX_FREQ)
-    sleep(0.2)
+    sleep(0.15)
 
 
 
