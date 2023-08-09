@@ -1,0 +1,10 @@
+#pyinstaller build
+build/
+dist/
+app.spec
+#virtual environment
+venv/
+#runtime
+runtime/
+#app_test.py
+app_test.py
