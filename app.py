@@ -6,7 +6,7 @@ MAX_FREQ = 144
 MIN_FREQ = 60
 
 def set_freq(hzValue) -> None:
-  system(f"runtime\\qres.exe f={str(hzValue)}")
+  system(f"runtime\\QRes.exe f={str(hzValue)}")
 
 def main() -> None:
   while(True):
