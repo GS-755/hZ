@@ -6,5 +6,8 @@ app.spec
 venv/
 #runtime
 runtime/
+runtime.*
 #app_test.py
 app_test.py
+#configparser 
+config.ini
