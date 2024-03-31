@@ -11,3 +11,4 @@ runtime.*
 app_test.py
 #configparser 
 config.ini
+*.spec
